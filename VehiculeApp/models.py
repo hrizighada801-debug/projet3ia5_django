@@ -6,5 +6,5 @@ class Offre(models.Model):
     disponible = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-
+#il faut le verifier 
     
